@@ -1,0 +1,29 @@
+<main>
+<h1 class="action-header">Login</h1>
+
+<div class="container">
+ <div class="row">
+   <div class="form">
+<%= form_tag 'login', method: :post, class: "form-horizontal" do %>
+
+  <%= email_field_tag(
+      :email,
+      params[:email],
+      placeholder: "Email",
+      class: "form-control"
+  ) %>
+  <%= password_field_tag(
+      :password,
+      params[:password],
+      placeholder: "Password",
+      class: "form-control"
+  ) %>
+  <%= submit_tag(
+      "Login",
+      class: "btn btn-success"
+  ) %>
+<% end %>
+</div>
+</div>
+</div>
+</main>
