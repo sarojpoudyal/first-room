@@ -15,6 +15,7 @@
   .jumbotron{
     background-image: asset-url('jumbo.jpg');
     background-size:cover;
+    margin-bottom: 0;
   }
   /*-- banner --*/
 .banner{
@@ -47,7 +48,7 @@
 	width:45%;
 	background:#fff;
 	padding:2em;
-	margin:3.5em 0 0;
+
 }
 .banner-right h3{
 	font-size: 1.5em;
@@ -303,3 +304,15 @@ p.autem{
 	line-height:1.8em;
 	text-align:center;
 }
+
+
+/* Footer */
+footer{
+  // background-color: #aaa;
+  color: #777;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+}
+/************/
