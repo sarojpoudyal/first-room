@@ -1,1 +1,203 @@
-<h1>Jumbotron will be here with a booking form in the right hand side</h1>
+<div class="jumbotron">
+  <div class="banner">
+		<div class="container">
+			<div class="banner-left">
+				<h3>the easiest way to find your dream home</h3>
+				<p>Excepteur sint occaecat cupidatat.</p>
+			</div>
+			<div class="banner-right">
+				<h3><span>Search For Home</span></h3>
+				<div class="reservation">
+					<div class="section_room">
+						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+						<select id="country" onchange="change_country(this.value)" class="frm-field required">
+							<option value="null">Location</option>
+							<option value="null">Denmark</option>
+							<option value="AX">Sweden</option>
+							<option value="AX">New Zealand</option>
+							<option value="AX">America</option>
+							<option value="AX">Australia</option>
+						</select>
+					</div>
+					<div class="section_room">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+						<select id="country1" onchange="change_country(this.value)" class="frm-field required">
+							<option value="null">Type of property</option>
+							<option value="null">Property1</option>
+							<option value="AX">Property2</option>
+							<option value="AX">Property3</option>
+							<option value="AX">Property4</option>
+							<option value="AX">Property5</option>
+						</select>
+					</div>
+					<div class="reservation-grids">
+						<div class="reservation-grid-left">
+							<div class="section_room">
+								<span class="tent"> </span>
+								<select id="country2" onchange="change_country(this.value)" class="frm-field required">
+									<option value="null">Bedrooms</option>
+									<option value="null">1</option>
+									<option value="AX">2</option>
+									<option value="AX">3</option>
+									<option value="AX">4</option>
+									<option value="AX">More</option>
+								</select>
+							</div>
+						</div>
+						<div class="reservation-grid-right">
+							<div class="section_room">
+								<span class="bath"></span>
+								<select id="country3" onchange="change_country(this.value)" class="frm-field required">
+									<option value="null">Baths</option>
+									<option value="null">Any</option>
+									<option value="AX">2</option>
+									<option value="AX">3</option>
+									<option value="AX">4</option>
+									<option value="AX">More</option>
+								</select>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="reservation-grids">
+						<div class="reservation-grid-left">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="country2" onchange="change_country(this.value)" class="frm-field required">
+									<option value="null">Price From Min</option>
+									<option value="null">No Minimum</option>
+									<option value="AX">1000Yen</option>
+									<option value="AX">3000Yen</option>
+									<option value="AX">4000Yen</option>
+									<option value="AX">5000Yen</option>
+								</select>
+							</div>
+						</div>
+						<div class="reservation-grid-right">
+							<div class="section_room">
+								<span class="glyphicon glyphicon-yen" aria-hidden="true"></span>
+								<select id="country3" onchange="change_country(this.value)" class="frm-field required">
+									<option value="null">Price From Max</option>
+									<option value="null">Any</option>
+									<option value="AX">15000Yen</option>
+									<option value="AX">25000Yen</option>
+									<option value="AX">35000Yen</option>
+									<option value="AX">More</option>
+								</select>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="keywords">
+						<form action="#" method="post">
+							<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+							<input type="text" name="Key Words" placeholder="Key Words" required=" ">
+							<input type="submit" value="Search">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="events">
+		<div class="container">
+			<h3><span>Featured</span></h3>
+			<div class="events-grids">
+				<div class="col-md-4 events-grid">
+					<div class="events-grid1 hvr-sweep-to-top">
+						<a href="single.html">
+						  <%= image_tag "img1.jpg", :class=>"img-responsive" %>
+						</a>
+						<h4><a href="single.html">oribus asperiores</a></h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+							<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 20, 2016</li>
+						</ul>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+							blanditiis praesentium voluptatum deleniti atque.</p>
+					</div>
+				</div>
+				<div class="col-md-4 events-grid">
+					<div class="events-grid1 hvr-sweep-to-top">
+						<a href="single.html"><%= image_tag "img1.jpg", :class=>"img-responsive" %></a>
+						<h4><a href="single.html">iusto odio dignissi</a></h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+							<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 25, 2016</li>
+						</ul>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+							blanditiis praesentium voluptatum deleniti atque.</p>
+					</div>
+				</div>
+        <div class="col-md-4 events-grid">
+          <div class="events-grid1 hvr-sweep-to-top">
+            <a href="single.html"><%= image_tag "img1.jpg", :class=>"img-responsive" %></a>
+            <h4><a href="single.html">iusto odio dignissi</a></h4>
+            <ul>
+              <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+              <li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 25, 2016</li>
+            </ul>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque.</p>
+          </div>
+        </div>
+        <div class="col-md-4 events-grid">
+          <div class="events-grid1 hvr-sweep-to-top">
+            <a href="single.html"><%= image_tag "img1.jpg", :class=>"img-responsive" %></a>
+            <h4><a href="single.html">iusto odio dignissi</a></h4>
+            <ul>
+              <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+              <li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 25, 2016</li>
+            </ul>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque.</p>
+          </div>
+        </div>
+        <div class="col-md-4 events-grid">
+          <div class="events-grid1 hvr-sweep-to-top">
+            <a href="single.html"><%= image_tag "img1.jpg", :class=>"img-responsive" %></a>
+            <h4><a href="single.html">iusto odio dignissi</a></h4>
+            <ul>
+              <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+              <li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 25, 2016</li>
+            </ul>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque.</p>
+          </div>
+        </div>
+				<div class="col-md-4 events-grid">
+					<div class="events-grid1 hvr-sweep-to-top">
+						<a href="single.html"><%= image_tag "img1.jpg", :class=>"img-responsive" %></a>
+						<h4><a href="single.html">tatum deleniti atque</a></h4>
+						<ul>
+							<li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Admin</a></li>
+							<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>May 30, 2016</li>
+						</ul>
+						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+							blanditiis praesentium voluptatum deleniti atque.</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+  <div class="about">
+		<div class="container">
+			<h3><span>About Us</span></h3>
+			<p class="autem">Who we are</p>
+			<div class="about-grids">
+				<p class="delectus">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+					saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+					Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
+					maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+				
+				</div>
+      </div>
+    </div>
+  </div>
